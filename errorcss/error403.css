@@ -1,0 +1,54 @@
+/* stijlregels die enkel voor 403 van toepassing zijn */
+body {
+    background-color: #d6ecd2;
+    margin-top: 10px;
+}
+
+h1 i {
+    animation-name: op_en_neer;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+
+@keyframes op_en_neer {
+    0% {
+        transform: translateY(-4px);
+    }
+
+    100% {
+        transform: translateY(4px);
+    }
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid black;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+a {
+    border: 5px solid black;
+}
+
+@media (min-width: 992px) {
+    a {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 13pt;
+    line-height: 1.5;
+    background-color: yellow;
+}
+
+.container {
+    background-color: red;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+#slotzin {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    font-style: italic;
+}
+
+@media(min-width:768px) {
+    body {
+        background-color: #282828;
+    }
+
+    ul {
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 5px;
+        margin: 10px 20px 20px 20px;
+    }
+
+    li {
+        width: 200px;
+        border: 3px solid #aaaaaa;
+    }
+
+    li:hover {
+        color: black;
+        background-color: #aaaaaa;
+    }
+
+    a {
+        padding: 10px;
+        color: #aaaaaa;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    .container {
+        background-color: black;
+        color: #aaaaaa;
+    }
+
+    h2 {
+        font-family: "Bangers", sans-serif;
+        font-size: 40px;
+        line-height: 1.5;
+    }
+}
+
+@media(min-width:992px) {
+    body {
+        background-color: lightgray;
+        text-align: justify;
+    }
+
+    .container {
+        color: #545454;
+        background-color: white;
+    }
+
+    h1,
+    h2,
+    a {
+        color: black;
+    }
+
+    h2 {
+        font-family: "Ibarra Real Nova", sans-serif;
+        font-size: 36px;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    ul {
+        flex-direction: column;
+        height: 200px;
+        justify-content: space-around;
+        position: absolute;
+        margin: 0px;
+    }
+
+    li {
+        text-align: left;
+        margin-left: 25px;
+        border: 1px solid lightgray;
+    }
+
+    li:hover {
+        background-color: lightgray;
+    }
+
+    a {
+        padding: 5px;
+    }
+
+    .tekst {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        text-align: right;
+    }
+}

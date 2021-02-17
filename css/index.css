@@ -1,0 +1,67 @@
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #6ea0cf;
+    font-weight: bold;
+}
+
+h2.text-black {
+    color: black;
+}
+
+.bg-donker {
+    background-color: #eeeeee;
+}
+
+.bg-licht {
+    background-color: white;
+}
+
+.bd-donker-1 {
+    border: 1px solid black !important;
+}
+
+.bd-donker-2 {
+    border: 2px solid black !important;
+}
+
+.contact a {
+    font-size: 16px;
+}
+
+.link {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    line-height: 1;
+}
+
+.navbar {
+    border-bottom: 1px solid #82b9ec;
+}
+
+.image {
+    box-shadow: 0 5px 20px -4px gray
+}
+
+.button {
+    padding: 15px 60px;
+    border-radius: 25px;
+    background-color: #82b9ec;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: transparent;
+    transition: 0.5s;
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 5000 5000">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #8bc34a;
+      }
+
+      .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #cfd8dc;
+      }
+    </style>
+  </defs>
+  <circle id="Ovaal_2" data-name="Ovaal 2" class="cls-1" cx="954.206" cy="972.889" r="651.925"/>
+  <circle id="Ovaal_2-2" data-name="Ovaal 2" class="cls-1" cx="2519.065" cy="972.889" r="651.935"/>
+  <circle id="Ovaal_2-3" data-name="Ovaal 2" class="cls-1" cx="2519.065" cy="2500.44" r="651.935"/>
+  <path id="Ovaal_2-4" data-name="Ovaal 2" class="cls-2" d="M2519.06,3376.07c360.05,0,651.93,291.87,651.93,651.92s-291.88,651.93-651.93,651.93-651.92-291.88-651.92-651.93S2159.01,3376.07,2519.06,3376.07Z"/>
+  <circle id="Ovaal_2-5" data-name="Ovaal 2" class="cls-1" cx="4046.61" cy="972.889" r="651.92"/>
+  <circle id="Ovaal_5" data-name="Ovaal 5" class="cls-3" cx="953.452" cy="2525.8" r="651.858"/>
+  <circle id="Ovaal_5-2" data-name="Ovaal 5" class="cls-3" cx="953.452" cy="4027.235" r="651.858"/>
+  <path id="Ovaal_5-3" data-name="Ovaal 5" class="cls-4" d="M4045.86,1847.81c360.02,0,651.87,291.85,651.87,651.87s-291.85,651.87-651.87,651.87-651.87-291.85-651.87-651.87S3685.84,1847.81,4045.86,1847.81Z"/>
+  <path id="Ovaal_5-4" data-name="Ovaal 5" class="cls-4" d="M4045.86,3375.37c360.02,0,651.87,291.85,651.87,651.87s-291.85,651.86-651.87,651.86-651.87-291.85-651.87-651.86S3685.84,3375.37,4045.86,3375.37Z"/>
+</svg>

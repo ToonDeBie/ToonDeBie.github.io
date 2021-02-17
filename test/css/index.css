@@ -1,0 +1,45 @@
+h2 {
+    font-size: 20px;
+}
+
+.bg-donker {
+    background-color: #dddddd;
+}
+
+.bg-licht {
+    background-color: #eeeeee;
+}
+
+.c-donker {
+    color: black !important;
+}
+
+.bd-donker-1 {
+    border: 1px solid black !important;
+}
+
+.bd-donker-2 {
+    border: 2px solid black !important;
+}
+
+.contact a {
+    font-size: 25px;
+}
+
+.link {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    line-height: 0.5;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

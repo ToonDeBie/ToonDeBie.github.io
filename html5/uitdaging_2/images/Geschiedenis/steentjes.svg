@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5000" height="5000" viewBox="0 0 5000 5000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8f8f93;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Kleurenvulling_1" data-name="Kleurenvulling 1" class="cls-1" d="M3568,2080C3412.8,2425.25-475.619,3373.09,532.1,1842.42,1653.48,139.077,4138.95,809.875,3568,2080Z"/>
+  <path id="Kleurenvulling_2" data-name="Kleurenvulling 2" class="cls-1" d="M4368.7,4207.27c-180.53,82.9-2044.74-884.65-1118.04-1141.86C4281.89,2779.19,5032.81,3902.29,4368.7,4207.27Z"/>
+</svg>

@@ -1,0 +1,84 @@
+/* stijlregels die enkel voor 404 van toepassing zijn */
+
+body {
+    background-image: url(../errorimg/404_achtergrond.jpg);
+    background-size: cover;
+    background-color: #CCC5A9;
+    color: #37363e;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    padding: 15px;
+}
+
+#excuses {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-weight: bolder;
+    max-width: 200px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border-radius: 15%;
+    line-height: 1.35;
+}
+
+h1 i {
+    font-size: 45px;
+}
+
+p a {
+    background-color: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    line-height: 1.2;
+    color: #37363e;
+}
+
+.home {
+    display: block;
+    font-size: 15px;
+}
+
+/*deze css maakt het voor screenreaders mogelijk de "0" wel voor te lezen maar wordt niet getoond op het scherm (https://www.anysurfer.be/nl/in-de-praktijk/websites/verborgen-tekst)*/
+#nul {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+@media (min-width: 576px) {
+    #excuses {
+        position: static;
+        max-width: 400px;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    .midden {
+        width: 100%;
+        display: flex;
+        . align-items: center;
+        justify-content: center;
+        margin-top: 30vh
+    }
+
+    p a {
+        right: 25px;
+        bottom: 25px;
+    }
+
+    h1 {
+        padding: 25px;
+    }
+}

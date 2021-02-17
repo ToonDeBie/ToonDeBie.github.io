@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="355" height="416" viewBox="0 0 355 416">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+      path {
+        fill: #1e1f26;
+      }
+    </style>
+  </defs>
+  <path id="Ovaal_2" data-name="Ovaal 2" class="cls-1" d="M177.5,61A177.5,177.5,0,1,1,0,238.5,176.816,176.816,0,0,1,177.5,61ZM268,18"/>
+  <path id="Ovaal_3" data-name="Ovaal 3" class="cls-1" d="M228.488,16.708c4.787-14.414,25.238-20.6,45.679-13.807s33.132,23.977,28.345,38.39-25.238,20.6-45.679,13.807S223.7,31.122,228.488,16.708Z"/>
+  <path id="Rechthoek_1" data-name="Rechthoek 1" class="cls-1" d="M253.31,21.129l29.413,12.605-36.635,85.48L216.676,106.61Z"/>
+</svg>

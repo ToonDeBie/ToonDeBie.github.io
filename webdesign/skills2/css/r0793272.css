@@ -1,0 +1,49 @@
+/*basisstijl*/
+
+body {
+    font-family: tahoma, sans-serif;
+    background-color: lightcyan;
+    color: black;
+}
+
+a {
+    display: block;
+    padding: 20px;
+}
+
+a:link {
+    background-color: inherit;
+    color: red;
+}
+
+a:visited {
+    background-color: inherit;
+    color: green;
+}
+
+a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+a:active {
+    background-color: inherit;
+    color: blue;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav li {
+    list-style: none;
+    flex-grow: 1;
+    max-width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: darkgray;
+    opacity: 0.5;
+    margin: 5px;
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #38b6ff;
+        stroke: #fff;
+        stroke-width: 23.02px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="cirkel" class="cls-1" cx="250" cy="250" r="175"/>
+  <path id="vinkje" class="cls-2" d="M351.1,204.3L225.406,330.12l-35.328-35.364,0.129-.13-41.325-41.368,35.329-35.365,41.325,41.368,90.237-90.33Z"/>
+</svg>
